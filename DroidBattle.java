@@ -10,11 +10,11 @@ public class DroidBattle{
         return !team1Alive || !team2Alive;
     }
     public static void delay(){
-      /* try {
+      /try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             System.out.println("Error");
-        }*/
+        }
     }
 
     public void startBattle(ArrayList<Droid> yourTeam, ArrayList<Droid> enemyTeam) {
